@@ -8,7 +8,8 @@
 int main(void)
 {
 printf("this is a program that will calculate the surface of a circle\n");
-float ray, surf;
+float ray;
+float surf;
 const float pi = 3.14;
 printf("please enter the radius of the circle: ");
 scanf("%f", &ray);
